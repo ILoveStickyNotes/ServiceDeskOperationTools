@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\BuiM1\AppData\Local\Apps\2.0\T8R2R95P.0KN\PGK503QT.MDJ\help..tion_5e2558001a469a0f_0001.0001_322847d5826254eb\Helpdesk Operations Tools - Reduced Functionality Version.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F7F21DAB-BB97-4073-BDA3-F12BA68799F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Helpdesk Operations Tools - Reduced Functionality Version</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <ApplicationVersion>1.0.2.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>HelpdeskOperationsTools</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="HEATdbDataSet.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\AsgnmntTableAdapter.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\AssigneeTableAdapter.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\AssigneeMasterTableAdapter.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\CalendarStatsTableAdapter.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\CallLogTableAdapter.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\DetailTableAdapter.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\FacilitiesTableAdapter.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\HEATCAITableAdapter.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\HEATLoginStatusTableAdapter.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\JournalTableAdapter.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\ProfileTableAdapter.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\SAPAssetsTableAdapter.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\SubsetTableAdapter.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\TrackerTableAdapter.cs" />
+    <Compile Include="HEATdbDataSetTableAdapters\TableAdapterManager.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>mainwindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="favicon.ico" />
+    <Resource Include="images\activedirectory.gif" />
+    <Resource Include="images\activedirectory.png" />
+    <Resource Include="images\ad.png" />
+    <Resource Include="images\book_journal_48x48.png" />
+    <Resource Include="images\favicon.ico" />
+    <Resource Include="images\favicon-new.ico" />
+    <Resource Include="images\gear.png" />
+    <Resource Include="images\heat.jpg" />
+    <Resource Include="images\heatlogo.jpg" />
+    <Resource Include="images\help.png" />
+    <Resource Include="images\help-large.png" />
+    <Resource Include="images\users.png" />
+    <Resource Include="images\xdzis_box_150clear.png" />
+    <Resource Include="images\xdzis_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="mainwindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

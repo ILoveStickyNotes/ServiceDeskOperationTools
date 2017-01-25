@@ -1,0 +1,13 @@
+C:\Users\BuiM1\Desktop\goworkspace\src\github.com\ILoveStickyNotes\Helpdesk Operations Tools - Reduced Functionality Version\obj\Debug\Helpdesk Operations Tools - Reduced Functionality Version.csprojResolveAssemblyReference.cache
+C:\Users\BuiM1\Desktop\goworkspace\src\github.com\ILoveStickyNotes\Helpdesk Operations Tools - Reduced Functionality Version\obj\Debug\mainwindow.baml
+C:\Users\BuiM1\Desktop\goworkspace\src\github.com\ILoveStickyNotes\Helpdesk Operations Tools - Reduced Functionality Version\obj\Debug\mainwindow.g.cs
+C:\Users\BuiM1\Desktop\goworkspace\src\github.com\ILoveStickyNotes\Helpdesk Operations Tools - Reduced Functionality Version\obj\Debug\Helpdesk Operations Tools - Reduced Functionality Version_MarkupCompile.cache
+C:\Users\BuiM1\Desktop\goworkspace\src\github.com\ILoveStickyNotes\Helpdesk Operations Tools - Reduced Functionality Version\obj\Debug\Helpdesk Operations Tools - Reduced Functionality Version.g.resources
+C:\Users\BuiM1\Desktop\goworkspace\src\github.com\ILoveStickyNotes\Helpdesk Operations Tools - Reduced Functionality Version\obj\Debug\HelpdeskOperationsTools.Properties.Resources.resources
+C:\Users\BuiM1\Desktop\goworkspace\src\github.com\ILoveStickyNotes\Helpdesk Operations Tools - Reduced Functionality Version\obj\Debug\Helpdesk Operations Tools - Reduced Functionality Version.csproj.GenerateResource.Cache
+C:\Users\BuiM1\Desktop\goworkspace\src\github.com\ILoveStickyNotes\Helpdesk Operations Tools - Reduced Functionality Version\bin\Debug\Helpdesk Operations Tools - Reduced Functionality Version.exe
+C:\Users\BuiM1\Desktop\goworkspace\src\github.com\ILoveStickyNotes\Helpdesk Operations Tools - Reduced Functionality Version\bin\Debug\Helpdesk Operations Tools - Reduced Functionality Version.pdb
+C:\Users\BuiM1\Desktop\goworkspace\src\github.com\ILoveStickyNotes\Helpdesk Operations Tools - Reduced Functionality Version\obj\Debug\Helpdesk Operations Tools - Reduced Functionality Version.exe
+C:\Users\BuiM1\Desktop\goworkspace\src\github.com\ILoveStickyNotes\Helpdesk Operations Tools - Reduced Functionality Version\obj\Debug\Helpdesk Operations Tools - Reduced Functionality Version.pdb
+C:\Users\BuiM1\Desktop\goworkspace\src\github.com\ILoveStickyNotes\ServiceDeskOperationTools\obj\Debug\Helpdesk Operations Tools - Reduced Functionality Version.exe
+C:\Users\BuiM1\Desktop\goworkspace\src\github.com\ILoveStickyNotes\ServiceDeskOperationTools\obj\Debug\Helpdesk Operations Tools - Reduced Functionality Version.pdb
